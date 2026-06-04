@@ -1,15 +1,353 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hola</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNI2 - Mutual Escolar CET 3</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <main class="card">
-    <h1>Hola, ¿cómo estás? </h1>
-    <p>Un html simple con el estilo separado en CSS.</p>
-  </main>
+
+<nav>
+    <div class="logo">
+        <img class="brand-mark" src="assets/uni2-logo.png" alt="Logo UNI2">
+        <h2>UNI2</h2>
+    </div>
+
+    <div class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#informacion">Informaci&oacute;n</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#asociate">Asociate</a>
+        <a href="#contacto">Contacto</a>
+        <button class="login-btn" type="button">Iniciar sesi&oacute;n</button>
+    </div>
+</nav>
+
+<section class="intro-hero" id="inicio">
+    <div class="intro-content">
+        <span class="eyebrow">Mutual Escolar CET 3</span>
+        <h1>UNI2 acompa&ntilde;a tu vida escolar</h1>
+        <p>
+            Una mutual hecha por y para la comunidad educativa, con servicios,
+            descuentos y beneficios pensados para que estudiar sea m&aacute;s simple.
+        </p>
+        <a href="#asociarme" class="primary-btn js-open-associate">Asociate</a>
+    </div>
+</section>
+
+<section class="info-section" id="informacion">
+    <div class="section-header">
+        <div>
+            <span class="section-kicker">Informaci&oacute;n general</span>
+            <h2>Lo esencial de UNI2</h2>
+        </div>
+        <p>Servicios propios, comercios por rubro y prop&oacute;sito de la mutual resumidos para consultar r&aacute;pido.</p>
+    </div>
+
+    <div class="info-grid">
+        <article class="info-card">
+            <span class="service-label">Servicios</span>
+            <h3>Fotocopias y anillado</h3>
+            <p>Copias para apuntes y trabajos. Anillado disponible para asociados.</p>
+        </article>
+
+        <article class="info-card">
+            <span class="service-label">Uniformes</span>
+            <h3>Camperas y remeras</h3>
+            <p>Prendas escolares con precio diferencial para asociados de UNI2.</p>
+        </article>
+
+        <article class="info-card">
+            <span class="service-label">Bicicleta solidaria</span>
+            <h3>Pr&eacute;stamo de bici</h3>
+            <p>Te prestamos una bici para que puedas ir a almorzar a tu casa.</p>
+        </article>
+
+        <article class="info-card">
+            <span class="service-label">Comercios adheridos</span>
+            <h3>Varios rubros</h3>
+            <p>Beneficios en deporte, librer&iacute;a, cafeter&iacute;a, gimnasio y otros rubros cercanos.</p>
+        </article>
+
+        <article class="info-card">
+            <span class="service-label">Precios</span>
+            <h3>Valores accesibles</h3>
+            <p>Los asociados acceden a mejores precios en servicios de la mutual.</p>
+        </article>
+
+        <article class="info-card">
+            <span class="service-label">Prop&oacute;sito</span>
+            <h3>Comunidad escolar</h3>
+            <p>Acompa&ntilde;ar la cursada con soluciones &uacute;tiles, cercanas y organizadas.</p>
+        </article>
+    </div>
+</section>
+
+<section class="services" id="beneficios">
+    <div class="section-header">
+        <div>
+            <span class="section-kicker">Beneficios</span>
+            <h2>Comercios destacados</h2>
+        </div>
+        <p>Desliz&aacute; para conocer algunos beneficios disponibles para asociados UNI2.</p>
+    </div>
+
+<div class="streaming-hero" aria-label="Beneficios destacados">
+    <div class="stream-track" id="streamTrack">
+        <article class="stream-slide" style="--image:url('https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=1600&q=80')">
+            <div class="stream-content">
+                <span class="eyebrow">15% off para asociados</span>
+                <h1>C.E.C V&oacute;ley</h1>
+                <p>Beneficio en actividades y servicios vinculados al v&oacute;ley.</p>
+                <div class="hero-actions">
+                    <a href="#asociate" class="primary-btn">Conocer m&aacute;s</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="stream-slide" style="--image:url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1600&q=80')">
+            <div class="stream-content">
+                <span class="eyebrow">10% off en &uacute;tiles escolares</span>
+                <h1>Librer&iacute;a Mu&ntilde;oz</h1>
+                <p>Descuento en materiales para clases, trabajos pr&aacute;cticos y organizaci&oacute;n diaria.</p>
+                <div class="hero-actions">
+                    <a href="#asociate" class="primary-btn">Conocer m&aacute;s</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="stream-slide" style="--image:url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1600&q=80')">
+            <div class="stream-content">
+                <span class="eyebrow">15% off en cafeter&iacute;a</span>
+                <h1>Cafeter&iacute;a Latte</h1>
+                <p>Descuento para meriendas, pausas y encuentros durante la semana escolar.</p>
+                <div class="hero-actions">
+                    <a href="#asociate" class="primary-btn">Conocer m&aacute;s</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="stream-slide" style="--image:url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80')">
+            <div class="stream-content">
+                <span class="eyebrow">20% off en entrenamiento</span>
+                <h1>Gimnasio GQ</h1>
+                <p>Beneficio para asociados que quieran entrenar y mantenerse activos.</p>
+                <div class="hero-actions">
+                    <a href="#asociate" class="primary-btn">Conocer m&aacute;s</a>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <button class="stream-arrow prev" id="prevSlide" type="button" aria-label="Slide anterior">&lsaquo;</button>
+    <button class="stream-arrow next" id="nextSlide" type="button" aria-label="Slide siguiente">&rsaquo;</button>
+    <div class="stream-dots" id="streamDots" aria-label="Indicadores del carrusel"></div>
+</div>
+</section>
+
+<section class="join-section" id="asociate">
+    <div class="join-banner">
+        <div class="join-copy">
+            <span class="section-kicker">Sumate a UNI2</span>
+            <h2>Asociate y aprovech&aacute; m&aacute;s beneficios</h2>
+            <p>
+                Ser socio te permite acceder a precios preferenciales, descuentos en comercios
+                y servicios escolares pensados para acompa&ntilde;ar tu cursada.
+            </p>
+
+            <ul class="benefit-list">
+                <li>Fotocopias con precio diferencial</li>
+                <li>Descuentos en comercios adheridos</li>
+                <li>Uniformes a precio de asociado</li>
+                <li>Anillado y bicicleta solidaria</li>
+            </ul>
+
+            <a href="#asociarme" class="primary-btn js-open-associate">Quiero asociarme</a>
+        </div>
+
+        <div class="steps-card">
+            <h3>Pasos para asociarte</h3>
+            <ol class="steps">
+                <li><strong>1</strong><span>Acercate personalmente al espacio de atenci&oacute;n de la mutual.</span></li>
+                <li><strong>2</strong><span>Consult&aacute; los requisitos, beneficios vigentes y modalidad de pago.</span></li>
+                <li><strong>3</strong><span>Complet&aacute; la asociaci&oacute;n presencialmente con tus datos.</span></li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section class="associate-section" id="asociarme">
+    <div class="associate-card">
+        <div class="associate-header">
+            <button type="button" class="close-associate" id="closeAssociate" aria-label="Cerrar">&times;</button>
+            <h2>UNI2</h2>
+            <p>Asociaci&oacute;n presencial a la Mutual</p>
+        </div>
+
+        <div class="associate-form" id="associateInfo">
+            <div class="form-group">
+                <label>Por ahora la asociaci&oacute;n se realiza solo presencialmente.</label>
+                <p class="radio-item">
+                    Acercate al espacio de atenci&oacute;n de UNI2 para consultar requisitos,
+                    beneficios vigentes y completar tus datos.
+                </p>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Horario de atenci&oacute;n</label>
+                    <p class="radio-item">Lunes a viernes, de 9:00 a 12:00 y de 14:00 a 17:00.</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Consultas</label>
+                    <p class="radio-item">Pod&eacute;s preguntar por fotocopias, uniformes, anillados y comercios adheridos.</p>
+                </div>
+            </div>
+
+            <button type="button" class="associate-submit" id="goToContact">Ver contacto y horarios</button>
+        </div>
+
+        <div class="associate-footer">UNI2 - Mutual Escolar</div>
+    </div>
+</section>
+
+<div class="thanks-message" id="thanksMessage">
+    <h2>Muchas gracias por ser parte de la mutual</h2>
+</div>
+
+<footer class="site-footer" id="contacto">
+    <div class="footer-grid">
+        <div class="footer-block">
+            <h3>Contacto</h3>
+            <p>UNI2 - Mutual Escolar CET 3</p>
+            <p>Email: uni2mutual@cet3.edu.ar</p>
+            <p>Instagram: @uni2.mutual</p>
+        </div>
+
+        <div class="footer-block">
+            <h3>Horarios de atenci&oacute;n</h3>
+            <ul>
+                <li>Lunes a viernes</li>
+                <li>9:00 a 12:00</li>
+                <li>14:00 a 17:00</li>
+            </ul>
+        </div>
+
+        <div class="footer-block">
+            <h3>Consultas</h3>
+            <p>Asociaci&oacute;n, fotocopias, uniformes, anillados y comercios adheridos.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const streamTrack = document.getElementById("streamTrack");
+    const slides = Array.from(document.querySelectorAll(".stream-slide"));
+    const dotsContainer = document.getElementById("streamDots");
+    const prevSlide = document.getElementById("prevSlide");
+    const nextSlide = document.getElementById("nextSlide");
+    const associateButtons = Array.from(document.querySelectorAll(".js-open-associate"));
+    const closeAssociate = document.getElementById("closeAssociate");
+    const associateModal = document.getElementById("asociarme");
+    const goToContact = document.getElementById("goToContact");
+    const thanksMessage = document.getElementById("thanksMessage");
+    let activeSlide = 0;
+    let autoplay;
+
+    slides.forEach((_, index) => {
+        const dot = document.createElement("button");
+        dot.className = "stream-dot";
+        dot.type = "button";
+        dot.setAttribute("aria-label", "Ir al slide " + (index + 1));
+        dot.addEventListener("click", () => {
+            setSlide(index);
+            restartAutoplay();
+        });
+        dotsContainer.appendChild(dot);
+    });
+
+    const dots = Array.from(document.querySelectorAll(".stream-dot"));
+
+    function setSlide(index){
+        activeSlide = (index + slides.length) % slides.length;
+        streamTrack.style.transform = "translateX(-" + activeSlide * 100 + "%)";
+
+        dots.forEach((dot, dotIndex) => {
+            dot.classList.toggle("is-active", dotIndex === activeSlide);
+        });
+    }
+
+    function restartAutoplay(){
+        clearInterval(autoplay);
+        autoplay = setInterval(() => setSlide(activeSlide + 1), 5000);
+    }
+
+    prevSlide.addEventListener("click", () => {
+        setSlide(activeSlide - 1);
+        restartAutoplay();
+    });
+
+    nextSlide.addEventListener("click", () => {
+        setSlide(activeSlide + 1);
+        restartAutoplay();
+    });
+
+    function openAssociateModal(event){
+        event.preventDefault();
+        associateModal.classList.add("is-open");
+        document.body.style.overflow = "hidden";
+    }
+
+    function closeAssociateModal(){
+        associateModal.classList.remove("is-open");
+        document.body.style.overflow = "";
+    }
+
+    function launchConfetti(){
+        const colors = ["#2A7726", "#2F2777", "#B01A1F", "#E19B2B", "#ffffff"];
+
+        for(let i = 0; i < 90; i++){
+            const confetti = document.createElement("span");
+            confetti.className = "confetti-piece";
+            confetti.style.left = Math.random() * 100 + "vw";
+            confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+            confetti.style.animationDelay = Math.random() * 0.7 + "s";
+            confetti.style.transform = "rotate(" + Math.random() * 360 + "deg)";
+            document.body.appendChild(confetti);
+
+            setTimeout(() => {
+                confetti.remove();
+            }, 3600);
+        }
+    }
+
+    associateButtons.forEach((button) => {
+        button.addEventListener("click", openAssociateModal);
+    });
+    closeAssociate.addEventListener("click", closeAssociateModal);
+
+    associateModal.addEventListener("click", (event) => {
+        if(event.target === associateModal){
+            closeAssociateModal();
+        }
+    });
+
+    goToContact.addEventListener("click", () => {
+        closeAssociateModal();
+        document.getElementById("contacto").scrollIntoView({behavior:"smooth"});
+    });
+
+    setSlide(0);
+    restartAutoplay();
+</script>
+
 </body>
 </html>
+
